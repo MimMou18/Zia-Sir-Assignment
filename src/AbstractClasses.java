@@ -1,4 +1,4 @@
-abstract class Vehicle {
+abstract class CAR {
     abstract void move();
 
     void fuelUp() {
@@ -6,7 +6,7 @@ abstract class Vehicle {
     }
 }
 
-class Car extends Vehicle {
+class Car extends CAR {
     void move() {
         System.out.println("Car is moving");
     }
